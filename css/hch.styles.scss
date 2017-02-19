@@ -1,0 +1,15 @@
+body{
+	background-color: #43d2c5;
+	text-align: center;
+	display: none;
+}
+
+#bs-example-navbar-collapse-1 .nav-justified li a:hover{
+	background-color: #c6c7c8;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#bs-example-navbar-collapse-1 .nav-justified li a{
+	margin-top: 3px;
+}
