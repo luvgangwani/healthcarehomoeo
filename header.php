@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="css/hch.styles.scss">
 	</head>
 	<body>
+	<div class="h6"><i><u>Dr. Deepak Gangwani's</u></i></div>
 	<div class="h1">Healthcare Homoeopathy</div>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
@@ -22,7 +23,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav nav-justified">
 					<li><a href="javascript:void(0);" id="lnk_about_me">About Me</a></li>
-					<li><a href="javascript:void(0);" id="lnk_homoeopathy_for_you">Homoeopathy For You</a></li>
+					<!-- <li><a href="javascript:void(0);" id="lnk_homoeopathy_for_you">Homoeopathy For You</a></li> -->
 					<li><a href="javascript:void(0);" id="lnk_contact_me">Contact Me</a></li>
 				</ul>
 			</div>

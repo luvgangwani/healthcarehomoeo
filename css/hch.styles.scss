@@ -1,7 +1,9 @@
 body{
-	background-color: #43d2c5;
+	background-color: #0e034a;
+	color: #ffffff;
 	text-align: center;
 	display: none;
+	font-family: "Ubuntu","sans-serif";
 }
 
 #bs-example-navbar-collapse-1 .nav-justified li a:hover{
@@ -13,3 +15,26 @@ body{
 #bs-example-navbar-collapse-1 .nav-justified li a{
 	margin-top: 3px;
 }
+
+.about-me-text{
+	border: 1px #ffffff solid;
+	border-radius: 4px;
+	margin: 30px;
+	text-align: left;
+}
+
+.about-me-text p{
+	margin: 20px;
+}
+.panel{
+	background-color: inherit;
+}
+
+/*.form-control{
+	width: 30%;
+	display: inline-block;
+}
+
+#form_send_email label{
+	display: block;
+}*/
