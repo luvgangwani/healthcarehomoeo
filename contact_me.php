@@ -53,24 +53,4 @@
 			</tr>
 		</table>
 	</div>
-	<hr>
-	<div class="h3"><u>Contact me via email</u></div>
-	<div class="email-form">
-		<form class="form-horizontal" id="form_send_email">
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="sender_email_id">Email ID:</label>
-				<div class="col-sm-10">
-					<input class="form-control" name="sender_email_id" id="sender_email_id" placeholder="Enter your Email ID" type="text">
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="mail_content">Content:</label>
-				<div class="col-sm-10">
-					<textarea class="form-control" placeholder="Add you content here" name="mail_content" id="mail_content" rows="5"></textarea>
-				</div>
-			</div>
-			<button type="submit" class="btn btn-default" id="btn_send_email">Send</button>
-			<button type="reset" class="btn btn-default">Reset</button>
-		</form>
-	</div>
 </div>

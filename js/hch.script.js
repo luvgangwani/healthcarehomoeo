@@ -36,4 +36,8 @@ $(document).ready(function(){
 		$('#main-body').empty();
 		$('#main-body').append(d).slideDown('fast');
 	}
+
+	$('.navbar-collapse').on('click',function(){
+		$(this).collapse('hide');
+	});
 });
