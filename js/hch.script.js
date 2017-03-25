@@ -30,6 +30,15 @@ $(document).ready(function(){
 		});
 	});
 
+	$("#main-body").on('click','#lnk_about_me_contact_me',function(e){
+		e.preventDefault()
+		
+		$.ajax({
+			url: "./contact_me.php",
+			success: function(d){mainBodyAppend(d)}
+		});
+	});
+
 	$('#lnk_about_me').trigger('click');
 
 	function mainBodyAppend(d){
